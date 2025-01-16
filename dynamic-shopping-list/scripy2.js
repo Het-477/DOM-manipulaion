@@ -12,9 +12,10 @@ function addListItem() {
     const listText = document.createElement("span");
     const itemDeleteBtn = document.createElement("button");
 
+    // storing and validating the input.
     const inputText = input.value.trim();
     if (input.value === '') return;
     input.value = '';
 
-    
+
 }
