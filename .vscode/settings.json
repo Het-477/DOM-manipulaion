@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "JetBrains Mono ExtraLight",
+    "colorize.languages": [
+    "javascript",
+    "css"
+    // ...
+  ],
+  "colorize.decoration_type STRING default": "background"
+
+
+}
+
