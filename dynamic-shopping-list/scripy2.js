@@ -30,9 +30,9 @@ function addListItem() {
     listText.innerText = inputText;
     listItem.appendChild(itemDeleteBtn);
     itemDeleteBtn.innerText = "Delete";
+    
     itemDeleteBtn.addEventListener("click", () => shoppingList.removeChild(listItem));
 
     // adding list item into the shopping list.
     shoppingList.appendChild(listItem);
-
 }
